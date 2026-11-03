@@ -1,0 +1,239 @@
+Command line invocation:
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/xcodebuild -project SpotifyPiP.xcodeproj -scheme SpotifyPiP -configuration Release -sdk iphoneos -destination generic/platform=iOS -derivedDataPath build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= build
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_ALLOWED = NO
+    CODE_SIGNING_REQUIRED = NO
+    SDKROOT = iphoneos18.5
+
+note: Using codesigning identity override: 
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'SpotifyPiP' in project 'SpotifyPiP' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 519e823ab5aed677d352c0b8fedaa2c7
+Build description path: /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/XCBuildData/519e823ab5aed677d352c0b8fedaa2c7.xcbuilddata
+ClangStatCache /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk /Users/runner/work/spotify-pip/spotify-pip/build/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache
+    cd /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP.xcodeproj
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -o /Users/runner/work/spotify-pip/spotify-pip/build/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products
+    cd /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP.xcodeproj
+    builtin-create-build-directory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products
+
+CreateBuildDirectory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex
+    cd /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP.xcodeproj
+    builtin-create-build-directory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP-a46d8e5a4d7da8abcaa379f3dc74a300-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP.xcodeproj
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP-a46d8e5a4d7da8abcaa379f3dc74a300-VFS-iphoneos/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos
+    cd /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP.xcodeproj
+    builtin-create-build-directory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos
+
+CreateBuildDirectory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos
+    cd /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP.xcodeproj
+    builtin-create-build-directory /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.hmap (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.hmap
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyStaticMetadataFileList (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyMetadataFileList (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-project-headers.hmap (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-own-target-headers.hmap (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-generated-files.hmap (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-target-headers.hmap (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-non-framework-target-headers.hmap (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_const_extract_protocols.json (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftFileList (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftConstValuesFileList (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.LinkFileList (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-OutputFileMap.json (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    write-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-OutputFileMap.json
+
+MkDir /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /bin/mkdir -p /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app
+
+MkDir /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/unthinned (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /bin/mkdir -p /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/unthinned
+
+MkDir /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /bin/mkdir -p /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Assets.xcassets (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Assets.xcassets --compile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_dependencies --output-partial-info-plist /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 16.0 --platform iphoneos --bundle-identifier com.eun.spotifypip --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Assets.xcassets (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Assets.xcassets --compile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 16.0 --platform iphoneos
+/* com.apple.actool.compilation-results */
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist_thinned
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver SpotifyPiP normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-SwiftDriver -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SpotifyPiP -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios16.0 -g -module-cache-path /Users/runner/work/spotify-pip/spotify-pip/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -F /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache -output-file-map /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/spotify-pip/spotify-pip/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-generated-files.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-own-target-headers.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-project-headers.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/include -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-Swift.h -working-directory /Users/runner/work/spotify-pip/spotify-pip -no-emit-module-separately-wmo
+
+SwiftDriver\ Compilation SpotifyPiP normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-Swift-Compilation -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SpotifyPiP -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios16.0 -g -module-cache-path /Users/runner/work/spotify-pip/spotify-pip/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -F /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache -output-file-map /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/spotify-pip/spotify-pip/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-generated-files.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-own-target-headers.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-project-headers.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/include -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-Swift.h -working-directory /Users/runner/work/spotify-pip/spotify-pip -no-emit-module-separately-wmo
+
+SwiftCompile normal arm64 Compiling\ AppModel.swift,\ AppSettings.swift,\ CardRenderer.swift,\ ContentView.swift,\ LyricsService.swift,\ LyricsText.swift,\ PiPManager.swift,\ Providers.swift,\ SpotifyService.swift,\ Util.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/AppModel.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/AppSettings.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/PiP/CardRenderer.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/UI/ContentView.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Lyrics/LyricsService.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Lyrics/LyricsText.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/PiP/PiPManager.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Lyrics/Providers.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Spotify/SpotifyService.swift /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Util.swift /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'SpotifyPiP' from project 'SpotifyPiP')
+
+CompileSwift normal arm64 (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppModel.swift, AppSettings.swift, CardRenderer.swift, ContentView.swift, LyricsService.swift, LyricsText.swift, PiPManager.swift, Providers.swift, SpotifyService.swift, Util.swift, GeneratedAssetSymbols.swift (in target 'SpotifyPiP' from project 'SpotifyPiP')
+
+SwiftDriver\ Compilation\ Requirements SpotifyPiP normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SpotifyPiP -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios16.0 -g -module-cache-path /Users/runner/work/spotify-pip/spotify-pip/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -F /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache -output-file-map /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/spotify-pip/spotify-pip/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-generated-files.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-own-target-headers.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP-project-headers.hmap -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/include -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-Swift.h -working-directory /Users/runner/work/spotify-pip/spotify-pip -no-emit-module-separately-wmo
+
+SwiftMergeGeneratedHeaders /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/SpotifyPiP-Swift.h /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-Swift.h (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP-Swift.h -o /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/DerivedSources/SpotifyPiP-Swift.h
+
+Copy /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/arm64-apple-ios.swiftmodule /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftmodule (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftmodule /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/arm64-apple-ios.swiftdoc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftdoc (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftdoc /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/arm64-apple-ios.abi.json /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.abi.json (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.abi.json /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftsourceinfo (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftsourceinfo /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+Ld /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SpotifyPiP normal (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios16.0 -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -Os -L/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos -L/Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -F/Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos -F/Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos -filelist /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_lto.o -Xlinker -dependency_info -Xlinker /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.swiftmodule -o /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SpotifyPiP
+
+LinkAssetCatalog /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Assets.xcassets (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-linkAssetCatalog --thinned /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app --plist-output /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/AppIcon60x60@2x.png (in target 'SpotifyPiP' from project 'SpotifyPiP')
+note: Emplaced /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/AppIcon76x76@2x~ipad.png (in target 'SpotifyPiP' from project 'SpotifyPiP')
+note: Emplaced /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Assets.car (in target 'SpotifyPiP' from project 'SpotifyPiP')
+
+ProcessInfoPlistFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Info.plist /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Info.plist (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-infoPlistUtility /Users/runner/work/spotify-pip/spotify-pip/SpotifyPiP/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Info.plist
+
+ExtractAppIntentsMetadata (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name SpotifyPiP --sdk-root /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk --xcode-version 16F6 --platform-family iOS --deployment-target 16.0 --bundle-identifier com.eun.spotifypip --output /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app --target-triple arm64-apple-ios16.0 --binary-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SpotifyPiP --dependency-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP_dependency_info.dat --stringsdata-file /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftFileList --metadata-file-list /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/Objects-normal/arm64/SpotifyPiP.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-03 09:49:13.903 appintentsmetadataprocessor[3552:13496] Starting appintentsmetadataprocessor export
+2026-11-03 09:49:13.911 appintentsmetadataprocessor[3552:13496] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CopySwiftLibs /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SpotifyPiP --scan-folder /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Frameworks --scan-folder /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/PlugIns --scan-folder /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SystemExtensions --scan-folder /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Extensions --platform iphoneos --toolchain /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+GenerateDSYMFile /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app.dSYM /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SpotifyPiP (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/SpotifyPiP -o /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app.dSYM
+
+AppIntentsSSUTraining (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Info.plist --temp-dir-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/ssu --bundle-id com.eun.spotifypip --product-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app --extracted-metadata-path /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app/Metadata.appintents --metadata-file-list /Users/runner/work/spotify-pip/spotify-pip/build/Build/Intermediates.noindex/SpotifyPiP.build/Release-iphoneos/SpotifyPiP.build/SpotifyPiP.DependencyMetadataFileList --archive-ssu-assets
+2026-11-03 09:49:13.970 appintentsnltrainingprocessor[3580:13579] Parsing options for appintentsnltrainingprocessor
+2026-11-03 09:49:13.974 appintentsnltrainingprocessor[3580:13579] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-RegisterExecutionPolicyException /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app
+
+Validate /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    builtin-validationUtility /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app (in target 'SpotifyPiP' from project 'SpotifyPiP')
+    cd /Users/runner/work/spotify-pip/spotify-pip
+    /usr/bin/touch -c /Users/runner/work/spotify-pip/spotify-pip/build/Build/Products/Release-iphoneos/SpotifyPiP.app
+
+note: Disabling previews because SWIFT_VERSION is set and SWIFT_OPTIMIZATION_LEVEL=-O, expected -Onone (in target 'SpotifyPiP' from project 'SpotifyPiP')
+** BUILD SUCCEEDED **
+
