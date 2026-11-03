@@ -1,0 +1,6 @@
+*.xcodeproj
+build/
+Payload/
+*.ipa
+SpotifyPiP/Info.plist
+.DS_Store
