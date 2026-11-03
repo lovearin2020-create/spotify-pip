@@ -55,7 +55,7 @@ final class AppModel: ObservableObject {
             art = nil
             guard let url, let u = URL(string: url) else { return }
             Task {
-                guard let (data, _) = try? await HTTP.session.data(from: u), let img = UIImage(data: data) else { return }
+                guard let res = try? await HTTP.session.data(from: u), let img = UIImage(data: res.0) else { return }
                 if self.artURL == url { self.art = img }
             }
         }

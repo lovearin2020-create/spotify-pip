@@ -34,10 +34,9 @@ enum Providers {
         var failed: [(String, Error)] = []
         var found: [String: LyricsResult] = [:]
         for k in list {
-            switch results[k] {
-            case .success(let r?): found[k] = r
+            switch results[k] ?? .success(nil) {
+            case .success(let r): if let r { found[k] = r }
             case .failure(let e): failed.append((k, e))
-            default: break
             }
         }
         for k in list {
@@ -178,7 +177,7 @@ enum Providers {
                 answered = true
             } catch {
                 lastErr = error
-                if case NetError.final = error { break }
+                if let ne = error as? NetError, case .final = ne { break }
                 continue
             }
             let cands = list

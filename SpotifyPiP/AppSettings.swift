@@ -7,7 +7,7 @@ struct RGBA: Equatable {
         self.r = r; self.g = g; self.b = b; self.a = a / 255
     }
     var ui: UIColor { UIColor(red: r / 255, green: g / 255, blue: b / 255, alpha: a) }
-    var color: Color { Color(ui) }
+    var color: Color { Color(uiColor: ui) }
     func with(alpha: CGFloat) -> UIColor { UIColor(red: r / 255, green: g / 255, blue: b / 255, alpha: alpha) }
 
     static func lerp(_ x: RGBA, _ y: RGBA, _ k: CGFloat) -> UIColor {
